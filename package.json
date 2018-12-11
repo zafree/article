@@ -1,0 +1,28 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "It's a medium.com like article",
+  "main": "css/main.css",
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "medium",
+    "post",
+    "article"
+  ],
+  "author": "Zafree <zafree@live.com>",
+  "license": "MIT",
+  "homepage": "url",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-header": "^2.0.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0"
+  }
+}
