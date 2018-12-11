@@ -5,4 +5,4 @@
 * @link url
 * @license MIT
 */
-body,div,h1,h2,h3,h4,h5,h6,html,p{margin:0;padding:0;border:0;font-size:100%}h1,p{font-size:42px;line-height:43px;font-weight:700;color:rgba(0,0,0,.84);letter-spacing:-.63px;margin:30px 0 0}body{overflow-x:hidden;word-break:break-word}html{box-sizing:border-box}*{box-sizing:inherit}.container{max-width:740px;margin-right:auto;margin-left:auto;padding-left:20px;padding-right:20px}p{font-size:21px;line-height:34px;font-weight:400;letter-spacing:-.063px;margin:25px 0 0}
+body,div,h2,h3,h4,h5,h6,html{margin:0;padding:0;border:0;font-size:100%}h1,p{padding:0;border:0;color:rgba(0,0,0,.84)}body{overflow-x:hidden;word-break:break-word;font-family:Georgia,Cambria,"Times New Roman",Times,serif}html{box-sizing:border-box}*{box-sizing:inherit}.container{max-width:740px;margin-right:auto;margin-left:auto;padding-left:20px;padding-right:20px}h1{font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;font-size:42px;line-height:43px;font-weight:700;letter-spacing:-.63px;margin:30px 0 0}p{font-size:21px;line-height:34px;font-weight:400;letter-spacing:-.063px;margin:25px 0 0}p+p{margin-top:30px}

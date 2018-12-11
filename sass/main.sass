@@ -1,3 +1,6 @@
+$family-sans: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !default
+$family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default
+
 //Reset
 html,
 body,
@@ -17,6 +20,7 @@ p
 body
 	overflow-x: hidden
 	word-break: break-word
+	font-family: $family-serif
 
 // box-sizing
 html
@@ -42,6 +46,7 @@ h1
 	color: rgba(#000, .84)
 	letter-spacing: -0.63px
 	margin-top: 30px
+	font-family: $family-sans
 	// border: 1px solid green
 
 p
@@ -51,4 +56,5 @@ p
 	color: rgba(#000, .84)
 	letter-spacing: -0.063px
 	margin-top: 25px
-	// +p margin-top: 30px
+	+ p
+		margin-top: 30px

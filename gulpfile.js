@@ -40,6 +40,7 @@ gulp.task('sass', function() {
         .pipe(sass())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('./css'))
+        .pipe(browserSync.stream())
         .pipe(csso())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({extname: '.min.css'}))

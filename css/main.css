@@ -22,7 +22,8 @@ p {
 
 body {
   overflow-x: hidden;
-  word-break: break-word; }
+  word-break: break-word;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 html {
   box-sizing: border-box; }
@@ -43,7 +44,8 @@ h1 {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.84);
   letter-spacing: -0.63px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif; }
 
 p {
   font-size: 21px;
@@ -52,3 +54,5 @@ p {
   color: rgba(0, 0, 0, 0.84);
   letter-spacing: -0.063px;
   margin-top: 25px; }
+  p + p {
+    margin-top: 30px; }
